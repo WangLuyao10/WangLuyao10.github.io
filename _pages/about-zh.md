@@ -12,7 +12,7 @@ news: false
 latest_posts: false
 selected_papers: false
 social: true
-cv_pdf: "个人作品集.pdf"
+cv_pdf: "portfolio.pdf"
 nav: true
 nav_order: 1
 ---
