@@ -3,12 +3,12 @@
 # -----------------------------------------------------------------------------
 
 title: blank # the website title (if blank, full name will be used instead)
-first_name: 
+first_name: Luyao
 middle_name: 
-last_name: 
-email: wangchengjun@nju.edu.cn
+last_name: Wang
+email: 522025110043@smail.nju.edu.cn
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Know Thyself.
+  MA in Journalism & Communication | Computational Communication Researcher Exploring the intersection of data, media, and society. Former media practitioner with hands-on industry experience. The resume and portfolio are below.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
@@ -273,7 +273,7 @@ display_categories: ['blockquotes'] # these categories will be displayed on the 
 scholar:
 
   last_name: [Wang]
-  first_name: [Cheng-Jun]
+  first_name: [Lu-Yao]
 
   style: apa
   locale: en
