@@ -1,0 +1,14 @@
+/* 隐藏博客页面的顶部导航 */
+.blog-nav {
+    display: none !important;
+}
+
+/* 或者如果上面的选择器不工作，尝试这个 */
+.navbar {
+    display: none !important;
+}
+
+/* 或者更具体的选择器 */
+header {
+    display: none !important;
+}
