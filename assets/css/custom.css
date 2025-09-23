@@ -12,3 +12,116 @@
 header {
     display: none !important;
 }
+/* About页面字体和行距优化 */
+
+/* 整体页面字体优化 */
+.layout--about .page {
+    font-family: "Segoe UI", "Microsoft YaHei", "PingFang SC", sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* 主标题优化 */
+.layout--about .page-title {
+    font-size: 1.8rem !important;
+    font-weight: 600 !important;
+    color: #2c3e50 !important;
+    margin-bottom: 0.3rem !important;
+    text-align: center !important;
+}
+
+/* 副标题优化 */
+.layout--about .page-subtitle {
+    font-size: 1.1rem !important;
+    color: #7f8c8d !important;
+    text-align: center !important;
+    margin-bottom: 2rem !important;
+    font-weight: 400 !important;
+    font-style: italic !important;
+}
+
+/* 二级标题优化（教育经历、职业经历等） */
+.layout--about h2 {
+    font-size: 1.4rem !important;
+    font-weight: 600 !important;
+    color: #3498db !important;
+    border-bottom: 2px solid #ecf0f1 !important;
+    padding-bottom: 0.5rem !important;
+    margin-top: 2rem !important;
+    margin-bottom: 1rem !important;
+    line-height: 1.4 !important;
+}
+
+/* 段落文本优化 */
+.layout--about p {
+    font-size: 1rem !important;
+    line-height: 1.7 !important;
+    color: #444 !important;
+    margin-bottom: 1.2rem !important;
+    text-align: justify !important;
+}
+
+/* 列表项优化 */
+.layout--about ul {
+    padding-left: 1.8rem !important;
+    margin-bottom: 1.5rem !important;
+}
+
+.layout--about li {
+    font-size: 0.95rem !important;
+    line-height: 1.5 !important;
+    margin-bottom: 0.6rem !important;
+    color: #555 !important;
+    position: relative !important;
+}
+
+/* 列表项前的装饰点 */
+.layout--about li:before {
+    content: "•" !important;
+    color: #3498db !important;
+    font-weight: bold !important;
+    position: absolute !important;
+    left: -1rem !important;
+}
+
+/* PDF下载链接美化 */
+.layout--about a[href*=".pdf"] {
+    display: inline-block !important;
+    background: linear-gradient(135deg, #3498db, #2980b9) !important;
+    color: white !important;
+    padding: 0.6rem 1.2rem !important;
+    border-radius: 4px !important;
+    text-decoration: none !important;
+    font-weight: 500 !important;
+    margin: 1rem 0 !important;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1) !important;
+    transition: all 0.3s ease !important;
+}
+
+.layout--about a[href*=".pdf"]:hover {
+    background: linear-gradient(135deg, #2980b9, #2471a3) !important;
+    transform: translateY(-2px) !important;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15) !important;
+    text-decoration: none !important;
+}
+
+/* 联系信息区域特殊样式 */
+.layout--about h2:first-of-type {
+    margin-top: 1.5rem !important;
+}
+
+/* 响应式调整：小屏幕设备 */
+@media (max-width: 768px) {
+    .layout--about .page-title {
+        font-size: 1.6rem !important;
+    }
+    
+    .layout--about h2 {
+        font-size: 1.3rem !important;
+    }
+    
+    .layout--about p,
+    .layout--about li {
+        font-size: 0.9rem !important;
+    }
+}
