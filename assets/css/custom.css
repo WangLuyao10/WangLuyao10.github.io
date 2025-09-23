@@ -1,51 +1,35 @@
 /* 隐藏博客页面的顶部导航 */
-.blog-nav {
-    display: none !important;
-}
-
-/* 或者如果上面的选择器不工作，尝试这个 */
-.navbar {
-    display: none !important;
-}
-
-/* 或者更具体的选择器 */
-header {
+.blog-nav, .navbar, header {
     display: none !important;
 }
 
 /* ============================================================================
-   About页面字体和行距优化 - 修正版
+   About页面字体和行距优化 - 精确选择器版本
    ============================================================================ */
 
-/* 通用页面样式 */
-body {
+/* 针对about页面的精确选择器 */
+.layout-about .page {
     font-family: "Segoe UI", "Microsoft YaHei", "PingFang SC", sans-serif !important;
     line-height: 1.6 !important;
-    color: #333 !important;
 }
 
-/* 主标题样式 */
-h1.post-title {
+/* 主标题 */
+.layout-about .page__title {
     font-size: 1.8rem !important;
     font-weight: 600 !important;
     color: #2c3e50 !important;
     text-align: center !important;
     margin-bottom: 0.5rem !important;
-    margin-top: 1rem !important;
 }
 
-/* 页面副标题/描述 */
-.page__description {
-    font-size: 1.1rem !important;
-    color: #7f8c8d !important;
-    text-align: center !important;
-    margin-bottom: 2rem !important;
-    line-height: 1.5 !important;
-    font-style: italic !important;
+/* 页面内容区域 */
+.layout-about .page__content {
+    font-size: 1rem !important;
+    line-height: 1.7 !important;
 }
 
-/* 二级标题（教育经历、职业经历等） */
-h2 {
+/* 所有二级标题 */
+.layout-about .page__content h2 {
     font-size: 1.4rem !important;
     font-weight: 600 !important;
     color: #3498db !important;
@@ -53,43 +37,31 @@ h2 {
     padding-bottom: 0.5rem !important;
     margin-top: 2.5rem !important;
     margin-bottom: 1.2rem !important;
-    line-height: 1.3 !important;
 }
 
-/* 段落文本 */
-p {
+/* 所有段落 */
+.layout-about .page__content p {
     font-size: 1rem !important;
     line-height: 1.7 !important;
     color: #444 !important;
     margin-bottom: 1.2rem !important;
-    text-align: justify !important;
 }
 
-/* 列表容器 */
-ul {
+/* 所有列表 */
+.layout-about .page__content ul {
     padding-left: 1.8rem !important;
     margin-bottom: 1.5rem !important;
 }
 
-/* 列表项 */
-li {
+/* 所有列表项 */
+.layout-about .page__content li {
     font-size: 0.95rem !important;
     line-height: 1.5 !important;
     margin-bottom: 0.6rem !important;
     color: #555 !important;
-    position: relative !important;
 }
 
-/* 列表项前的装饰点 */
-li:before {
-    content: "•" !important;
-    color: #3498db !important;
-    font-weight: bold !important;
-    position: absolute !important;
-    left: -1rem !important;
-}
-
-/* PDF下载链接美化 */
+/* PDF链接样式（已生效，保留） */
 a[href*=".pdf"] {
     display: inline-block !important;
     background: linear-gradient(135deg, #3498db, #2980b9) !important;
@@ -101,66 +73,16 @@ a[href*=".pdf"] {
     margin: 1.5rem 0 !important;
     box-shadow: 0 2px 5px rgba(0,0,0,0.2) !important;
     transition: all 0.3s ease !important;
-    text-align: center !important;
 }
 
 a[href*=".pdf"]:hover {
     background: linear-gradient(135deg, #2980b9, #2471a3) !important;
     transform: translateY(-2px) !important;
     box-shadow: 0 4px 8px rgba(0,0,0,0.3) !important;
-    text-decoration: none !important;
 }
 
-/* 联系信息区域特殊处理（移除列表装饰点） */
-h2:first-of-type + ul li:before {
-    content: "" !important;
-}
-
-h2:first-of-type + ul li {
-    padding-left: 0 !important;
-    margin-left: 0 !important;
-    list-style: none !important;
-}
-
-/* 页面内容区域通用样式 */
-.page {
-    max-width: 800px !important;
-    margin: 0 auto !important;
-    padding: 2rem !important;
-}
-
-/* 响应式调整：小屏幕设备 */
-@media (max-width: 768px) {
-    h1.post-title {
-        font-size: 1.6rem !important;
-    }
-    
-    h2 {
-        font-size: 1.3rem !important;
-    }
-    
-    p, li {
-        font-size: 0.9rem !important;
-    }
-    
-    .page {
-        padding: 1rem !important;
-    }
-}
-
-/* 确保所有文本都有合适的行高 */
-p, li, h1, h2, h3, h4, h5, h6 {
-    line-height: 1.5 !important;
-}
-
-/* 链接样式 */
-a {
-    color: #3498db !important;
-    text-decoration: none !important;
-    transition: color 0.3s ease !important;
-}
-
-a:hover {
-    color: #2980b9 !important;
-    text-decoration: underline !important;
+/* 通用body样式确保基础字体 */
+body {
+    font-family: "Segoe UI", "Microsoft YaHei", "PingFang SC", sans-serif !important;
+    line-height: 1.6 !important;
 }
