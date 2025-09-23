@@ -16,3 +16,4 @@ social: true  # includes social icons at the bottom of the page
 
 Luyao Wang is MA in Journalism & Communication | Computational Communication Researcher Exploring the intersection of data, media, and society. Former media practitioner with hands-on industry experience. The resume and portfolio are below.
 
+[📥 下载我的简历（PDF）](/assets/pdf/portfolio.pdf)
