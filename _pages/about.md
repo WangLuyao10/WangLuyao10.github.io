@@ -16,13 +16,3 @@ social: true  # includes social icons at the bottom of the page
 
 Luyao Wang is MA in Journalism & Communication | Computational Communication Researcher Exploring the intersection of data, media, and society. Former media practitioner with hands-on industry experience. The resume and portfolio are below.
 
-<img src="https://user-images.githubusercontent.com/543384/178952701-6e595809-3059-41d4-9d88-356a9b339445.png" align = "middle" width = "800px">
-
-
-<br>
-
-<a href="https://github.com/SocratesClub/SocratesClub.github.io/edit/master/_pages/about.md">
-  <img src="https://user-images.githubusercontent.com/543384/192227995-fdb3a693-2f68-4dc4-b9bd-06053066322f.png" width = "800" align="middle" />
-</a>
-
-<br>
