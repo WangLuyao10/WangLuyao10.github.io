@@ -69,7 +69,7 @@ li {
 
 王璐瑶，南京大学新闻传播学院在读研究生，研究方向：计算传播。 
 
-[📥 下载我的简历（PDF）](/assets/pdf/portfolio.pdf)
+[📥 下载我的作品集（PDF）](/assets/pdf/portfolio.pdf)
 
 ## 联系信息
 - 南京大学新闻传播学院
